@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="AI generated character">
+  <defs>
+    <linearGradient id="c4" x1="0" x2="1"><stop offset="0%" stop-color="#0b0e10"/><stop offset="100%" stop-color="#0b0b0b"/></linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#c4)"/>
+  <g transform="translate(36,36)">
+    <rect width="528" height="452" rx="12" fill="#0f1213"/>
+    <g transform="translate(24,24)">
+      <circle cx="240" cy="160" r="120" fill="#a7a7a7" opacity="0.14"/>
+      <g transform="translate(80,60)">
+        <path d="M144 12 C176 24 188 64 170 98 C152 132 120 152 82 156 C44 160 20 140 10 104 C0 68 30 28 144 12 Z" fill="#dcdcdc" opacity="0.06"/>
+        <rect x="18" y="32" width="220" height="24" rx="6" fill="#2e2e2e" />
+        <rect x="110" y="38" width="44" height="14" rx="4" fill="#eaeaea" opacity="0.9"/>
+      </g>
+
+      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#e6e6e6" font-weight="700">Kakashi</text>
+      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#9b9b9b">AI stylized portrait — high quality placeholder</text>
+    </g>
+  </g>
+</svg>
