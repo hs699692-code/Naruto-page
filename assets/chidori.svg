@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="AI generated jutsu image">
+  <defs>
+    <linearGradient id="l1" x1="0" x2="1"><stop offset="0%" stop-color="#0b1b2b"/><stop offset="100%" stop-color="#051020"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#071018"/>
+  <g transform="translate(40,40)">
+    <rect width="720" height="520" rx="16" fill="#071324"/>
+    <g transform="translate(120,40)">
+      <path d="M240 120 C260 150 300 180 320 220 C340 260 336 300 300 320 C264 340 220 320 190 300 C160 280 150 240 170 200 C190 160 210 128 240 120 Z" fill="#bfe7ff" opacity="0.9"/>
+      <g transform="translate(220,160)">
+        <circle cx="0" cy="0" r="44" fill="#cde9ff" opacity="0.9"/>
+      </g>
+      <text x="240" y="420" text-anchor="middle" font-size="32" font-family="Poppins, sans-serif" fill="#bcdfff" font-weight="700">Chidori</text>
+    </g>
+  </g>
+</svg>
