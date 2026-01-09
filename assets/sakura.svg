@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="AI generated character">
+  <defs>
+    <linearGradient id="c3" x1="0" x2="1"><stop offset="0%" stop-color="#2a0c12"/><stop offset="100%" stop-color="#0d0710"/></linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#c3)"/>
+  <g transform="translate(36,36)">
+    <rect width="528" height="452" rx="12" fill="#120714"/>
+    <g transform="translate(24,24)">
+      <circle cx="240" cy="160" r="120" fill="#ff92b2" opacity="0.18"/>
+      <g transform="translate(92,64)">
+        <path d="M144 8 C168 36 178 78 162 118 C146 158 112 176 76 176 C40 176 14 156 6 120 C-2 84 20 36 144 8 Z" fill="#ffe6ee" opacity="0.06"/>
+        <path d="M40 42 L64 20 L96 36 L126 18 L152 36 L180 18 L204 40 L176 12 L148 32 L120 18 L92 36 Z" fill="#ff9eb0" opacity="0.9"/>
+      </g>
+
+      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#ffb3c7" font-weight="700">Sakura</text>
+      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#bfa2a8">AI stylized portrait — high quality placeholder</text>
+    </g>
+  </g>
+</svg>
