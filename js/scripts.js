@@ -1,7 +1,10 @@
 // Page transition + simple client-side nav highlight + mobile menu
 document.addEventListener('DOMContentLoaded', function(){
-  // show page animation
-  requestAnimationFrame(()=> document.body.querySelector('.page').classList.add('is-visible'));
+  // show page animation (safe check if .page exists)
+  requestAnimationFrame(()=>{
+    const pageEl = document.querySelector('.page');
+    if(pageEl) pageEl.classList.add('is-visible');
+  });
 
   // Smooth scroll for internal anchors (if any)
   document.documentElement.style.scrollBehavior = 'smooth';
@@ -40,6 +43,6 @@ document.addEventListener('click', function(ev){
   if(href.startsWith('http') || href.startsWith('#') || href.indexOf('.html')===-1) return;
   ev.preventDefault();
   const bodyPage = document.querySelector('.page');
-  bodyPage.classList.remove('is-visible');
+  if(bodyPage) bodyPage.classList.remove('is-visible');
   setTimeout(()=> window.location = href, 300);
 });
