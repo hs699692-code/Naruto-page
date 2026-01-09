@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // show page animation (safe check if .page exists)
   requestAnimationFrame(()=>{
     const pageEl = document.querySelector('.page');
-    if(pageEl) pageEl.classList.add('is-visible');
+    if (pageEl) pageEl.classList.add('is-visible');
   });
 
   // Smooth scroll for internal anchors (if any)
