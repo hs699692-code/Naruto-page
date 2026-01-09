@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-label="AI generated hero image">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1b0f08"/>
+      <stop offset="45%" stop-color="#2d1110"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0.6" cy="0.25" r="0.5">
+      <stop offset="0%" stop-color="#ff9a4a" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#ff6b00" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0.2"/>
+      <feBlend mode="overlay"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="800" fill="url(#bg)"/>
+  <rect x="40" y="48" width="1520" height="704" rx="20" fill="rgba(0,0,0,0.28)"/>
+  <g transform="translate(80,80)">
+    <rect x="0" y="0" width="1440" height="640" rx="14" fill="url(#flare)" />
+    <g transform="translate(36,36)">
+      <rect x="0" y="0" width="1368" height="568" rx="12" fill="#1a0f0c" opacity="0.98"/>
+      <!-- stylized energetic ninja silhouette -->
+      <g transform="translate(40,24) scale(1)">
+        <path d="M980 120 C930 80 840 90 760 140 C700 180 650 220 570 260 C520 290 480 340 420 380 C380 410 300 420 240 420 C180 420 120 400 80 360 L80 520 L1328 520 L1328 260 C1260 220 1140 180 980 120 Z" fill="#2b0f07" opacity="0.95"/>
+        <g transform="translate(80,60)">
+          <circle cx="960" cy="120" r="120" fill="#ff7900" opacity="0.06"/>
+          <text x="684" y="260" text-anchor="middle" font-family="Poppins, sans-serif" font-size="44" fill="#ffd2a8" font-weight="700">AI‑Generated Stylized Scene</text>
+          <text x="684" y="312" text-anchor="middle" font-family="Poppins, sans-serif" font-size="18" fill="#f4d35e" opacity="0.95">Original stylized artwork — good quality placeholders</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- sparks -->
+  <g fill="#ff7900" opacity="0.18">
+    <circle cx="380" cy="520" r="6"/>
+    <circle cx="560" cy="460" r="5"/>
+    <circle cx="1040" cy="340" r="8"/>
+    <circle cx="1200" cy="280" r="6"/>
+  </g>
+
+  <text x="46" y="780" fill="#f4d35e" font-family="Poppins, sans-serif" font-size="13">© AI generated — stylized hero image</text>
+</svg>
