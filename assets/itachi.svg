@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="AI generated character">
+  <defs>
+    <linearGradient id="c5" x1="0" x2="1"><stop offset="0%" stop-color="#180a0a"/><stop offset="100%" stop-color="#0b0606"/></linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#c5)"/>
+  <g transform="translate(36,36)">
+    <rect width="528" height="452" rx="12" fill="#130b0b"/>
+    <g transform="translate(24,24)">
+      <circle cx="240" cy="160" r="120" fill="#5b1b1b" opacity="0.14"/>
+      <g transform="translate(96,64)">
+        <path d="M144 8 C170 36 184 82 168 120 C152 158 118 176 82 176 C46 176 18 152 8 118 C-2 84 24 34 144 8 Z" fill="#efcfcf" opacity="0.04"/>
+      </g>
+
+      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#ffb3a3" font-weight="700">Itachi</text>
+      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#b9a8a9">AI stylized portrait — high quality placeholder</text>
+    </g>
+  </g>
+</svg>
