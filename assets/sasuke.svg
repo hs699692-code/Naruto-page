@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="AI generated character">
+  <defs>
+    <linearGradient id="c2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b1420"/>
+      <stop offset="100%" stop-color="#061017"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#c2)"/>
+  <g transform="translate(36,36)">
+    <rect width="528" height="452" rx="12" fill="#11161a"/>
+    <g transform="translate(24,24)">
+      <circle cx="240" cy="160" r="120" fill="#103040" opacity="0.18"/>
+      <g transform="translate(92,64)">
+        <path d="M144 8 C164 36 174 78 158 118 C142 158 108 176 72 176 C36 176 12 154 2 118 C-8 80 12 32 144 8 Z" fill="#d9e8ff" opacity="0.06"/>
+        <path d="M36 40 L60 24 L92 36 L120 18 L148 36 L176 22 L204 40 L176 14 L148 34 L120 18 L92 36 Z" fill="#112233" opacity="0.9"/>
+      </g>
+
+      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#9cc7ff" font-weight="700">Sasuke</text>
+      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#9b9b9b">AI stylized portrait — high quality placeholder</text>
+    </g>
+  </g>
+</svg>
