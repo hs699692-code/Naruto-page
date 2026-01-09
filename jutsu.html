@@ -1,36 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Jutsu</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naruto Fan — Jutsu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-
-<header>
-    <div class="logo">NARUTO FAN SITE</div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="characters.html">Characters</a></li>
-            <li><a href="timeline.html">Timeline</a></li>
-            <li><a href="jutsu.html">Jutsu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<div class="container">
-    <h2 class="section-title">Jutsu</h2>
-
-    <div class="card-grid">
-        <div class="card"><img src="assets/rasengan.jpg"><div class="info"><b>Rasengan</b></div></div>
-        <div class="card"><img src="assets/chidori.jpg"><div class="info"><b>Chidori</b></div></div>
+<body class="page page-jutsu">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">MARUTO</div>
+        <small class="sub">— Fan Powers</small>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="characters.html" class="nav-link">Characters</a>
+        <a href="timeline.html" class="nav-link">Timeline</a>
+        <a href="jutsu.html" class="nav-link active">Jutsu</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-menu" aria-label="Open menu">☰</button>
     </div>
-</div>
+  </header>
 
-<footer>
-    © 2024 Naruto Fan Site. All Rights Reserved.
-</footer>
+  <main class="container">
+    <h1 class="section-title">Jutsu Encyclopedia</h1>
+    <div class="grid grid-3 cards-grid">
+      <article class="jutsu-card">
+        <img src="assets/rasengan.svg" alt="Rasengan">
+        <h3>Rasengan</h3>
+        <p>Spinning chakra sphere — powerful offensive technique</p>
+      </article>
 
+      <article class="jutsu-card">
+        <img src="assets/chidori.svg" alt="Chidori">
+        <h3>Chidori</h3>
+        <p>High-speed lightning attack for piercing defense</p>
+      </article>
+
+      <article class="jutsu-card">
+        <img src="assets/hero.svg" alt="Other">
+        <h3>Other Jutsu</h3>
+        <p>Additional jutsu and special moves.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Naruto Fan Site. All rights reserved.</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="characters.html">Characters</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="jutsu.html">Jutsu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>
