@@ -1,29 +1,27 @@
 
-
-  <rect width="1600" height="800" fill="url(#bg)"/>
-  <rect x="40" y="48" width="1520" height="704" rx="20" fill="rgba(0,0,0,0.28)"/>
-  <g transform="translate(80,80)">
-    <rect x="0" y="0" width="1440" height="640" rx="14" fill="url(#flare)" />
-    <g transform="translate(36,36)">
-      <rect x="0" y="0" width="1368" height="568" rx="12" fill="#1a0f0c" opacity="0.98"/>
-      <g transform="translate(40,24) scale(1)">
-        <path d="M980 120 C930 80 840 90 760 140 C700 180 650 220 570 260 C520 290 480 340 420 380 C380 410 300 420 240 420 C180 420 120 400 80 360 L80 520 L1328 520 L1328 260 C1260 220 1140 180 980 120 Z" fill="#2b0f07" opacity="0.95"/>
-        <g transform="translate(80,60)">
-          <circle cx="960" cy="120" r="120" fill="#ff7900" opacity="0.06"/>
-          <text x="684" y="260" text-anchor="middle" font-family="Poppins, sans-serif" font-size="44" fill="#ffd2a8" font-weight="700">AI‑Generated Stylized Scene</text>
-          <text x="684" y="312" text-anchor="middle" font-family="Poppins, sans-serif" font-size="18" fill="#f4d35e" opacity="0.95">Original stylized artwork — good quality placeholders</text>
-        </g>
+  <defs>
+    <linearGradient id="c1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2b1006"/>
+      <stop offset="100%" stop-color="#0e0a06"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="12" fill="url(#c1)"/>
+  <g transform="translate(36,36)">
+    <rect width="528" height="452" rx="12" fill="#1a0f0b"/>
+    <g transform="translate(24,24)">
+      <circle cx="240" cy="160" r="120" fill="#ff7a00" opacity="0.22"/>
+      <g transform="translate(96,60)">
+        <!-- face block -->
+        <path d="M144 0 C188 18 214 60 208 106 C202 156 170 186 128 198 C86 210 52 190 36 150 C20 110 46 40 144 0 Z" fill="#ffd6b2"/>
+        <!-- headband -->
+        <rect x="34" y="40" width="220" height="28" rx="6" fill="#2a2a2a" />
+        <rect x="120" y="46" width="40" height="16" rx="4" fill="#e6e6e6" opacity="0.9"/>
+        <!-- stylized hair -->
+        <path d="M10 36 L24 8 L44 30 L66 6 L88 28 L112 4 L136 30 L160 6 L178 36 L144 18 L120 40 L92 18 L64 46 Z" fill="#ffb05a" opacity="0.9"/>
       </g>
+
+      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#ffb88a" font-weight="700">Naruto</text>
+      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#d4c2a6">AI stylized portrait — high quality placeholder</text>
     </g>
   </g>
-
-  <!-- sparks -->
-  <g fill="#ff7900" opacity="0.18">
-    <circle cx="380" cy="520" r="6"/>
-    <circle cx="560" cy="460" r="5"/>
-    <circle cx="1040" cy="340" r="8"/>
-    <circle cx="1200" cy="280" r="6"/>
-  </g>
-
-  <text x="46" y="780" fill="#f4d35e" font-family="Poppins, sans-serif" font-size="13">© AI generated — stylized hero image</text>
 </svg>
