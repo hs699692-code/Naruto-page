@@ -10,11 +10,6 @@
       <stop offset="60%" stop-color="#ff6b00" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <filter id="grain">
-      <feTurbulence baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0.2"/>
-      <feBlend mode="overlay"/>
-    </filter>
   </defs>
 
   <rect width="1600" height="800" fill="url(#bg)"/>
@@ -23,7 +18,6 @@
     <rect x="0" y="0" width="1440" height="640" rx="14" fill="url(#flare)" />
     <g transform="translate(36,36)">
       <rect x="0" y="0" width="1368" height="568" rx="12" fill="#1a0f0c" opacity="0.98"/>
-      <!-- stylized energetic ninja silhouette -->
       <g transform="translate(40,24) scale(1)">
         <path d="M980 120 C930 80 840 90 760 140 C700 180 650 220 570 260 C520 290 480 340 420 380 C380 410 300 420 240 420 C180 420 120 400 80 360 L80 520 L1328 520 L1328 260 C1260 220 1140 180 980 120 Z" fill="#2b0f07" opacity="0.95"/>
         <g transform="translate(80,60)">
