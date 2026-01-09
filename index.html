@@ -1,35 +1,78 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Naruto Fan Site</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naruto Fan — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="page page-home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">MARUTO</div>
+        <small class="sub">— Fan Powers</small>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="characters.html" class="nav-link">Characters</a>
+        <a href="episodes.html" class="nav-link">Episodes</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="timeline.html" class="nav-link">Timeline</a>
+        <a href="jutsu.html" class="nav-link">Jutsu</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-menu" aria-label="Open menu">☰</button>
+    </div>
+  </header>
 
-<header>
-    <div class="logo">NARUTO FAN SITE</div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="characters.html">Characters</a></li>
-            <li><a href="timeline.html">Timeline</a></li>
-            <li><a href="jutsu.html">Jutsu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+  <main>
+    <section class="hero">
+      <img src="assets/hero.svg" alt="Hero image" class="hero-img">
+      <div class="hero-overlay container">
+        <h1>Welcome to the Naruto Universe</h1>
+        <p class="lead">Explore characters, story arcs, episodes, and legendary jutsus</p>
+        <div class="hero-actions">
+          <a class="btn" href="episodes.html">Episodes</a>
+          <a class="btn btn-outline" href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </section>
 
-<div class="hero" style="background-image:url('assets/hero.jpg');">
-    <h1>Welcome to the World of Ninjas</h1>
-</div>
+    <section class="intro container">
+      <div class="cards-row">
+        <div class="feature-card">
+          <h3>Episodes</h3>
+          <p>Totals, seasons and quick search for Naruto, Shippuden and Boruto.</p>
+          <a class="btn" href="episodes.html">View Episodes</a>
+        </div>
+        <div class="feature-card">
+          <h3>Gallery</h3>
+          <p>AI-generated character portraits — replace with yours anytime.</p>
+          <a class="btn" href="gallery.html">Open Gallery</a>
+        </div>
+        <div class="feature-card">
+          <h3>Jutsu</h3>
+          <p>Learn about iconic techniques like Rasengan and Chidori.</p>
+          <a class="btn" href="jutsu.html">Browse Jutsu</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<div class="container">
-    <p>Explore the ninja universe filled with power, rivalry, jutsu and destiny.</p>
-</div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Naruto Fan Site. All rights reserved.</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
 
-<footer>
-    © 2024 Naruto Fan Site. All Rights Reserved.
-</footer>
-
+  <script src="js/scripts.js"></script>
 </body>
 </html>
