@@ -1,38 +1,74 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naruto Fan — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="page page-contact">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">MARUTO</div>
+        <small class="sub">— Fan Powers</small>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="characters.html" class="nav-link">Characters</a>
+        <a href="timeline.html" class="nav-link">Timeline</a>
+        <a href="jutsu.html" class="nav-link">Jutsu</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="mobile-menu" aria-label="Open menu">☰</button>
+    </div>
+  </header>
 
-<header>
-    <div class="logo">NARUTO FAN SITE</div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="characters.html">Characters</a></li>
-            <li><a href="timeline.html">Timeline</a></li>
-            <li><a href="jutsu.html">Jutsu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+  <main class="container contact-wrap">
+    <h1 class="section-title">Contact</h1>
+    <div class="contact-grid">
+      <form class="contact-form" onsubmit="return handleContact(event)">
+        <label>
+          <span>Your Name</span>
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>
+          <span>Your Email</span>
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          <span>Your Message</span>
+          <textarea name="message" rows="6" required placeholder="Write your message..."></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+      </form>
 
-<div class="container">
-    <h2 class="section-title">Contact</h2>
+      <div class="contact-info">
+        <img src="assets/hero.svg" alt="side visual">
+        <div class="info-text">
+          <h3>Rasengan</h3>
+          <p>Spinning chakra sphere — signature jutsu.</p>
+          <h3>Chidori</h3>
+          <p>High-speed lightning attack.</p>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <form>
-        <input placeholder="Name">
-        <input placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Naruto Fan Site. All rights reserved.</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="characters.html">Characters</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="jutsu.html">Jutsu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
 
-<footer>
-    © 2024 Naruto Fan Site. All Rights Reserved.
-</footer>
-
+  <script src="js/scripts.js"></script>
 </body>
 </html>
