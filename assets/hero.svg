@@ -1,19 +1,5 @@
 
   <defs>
-    <linearGradient id="c1" x1="0" x2="1">
-      <stop offset="0%" stop-color="#2b1006"/>
-      <stop offset="100%" stop-color="#0e0a06"/>
-    </linearGradient>
-  </defs>
-  <rect width="600" height="800" rx="12" fill="url(#c1)"/>
-  <g transform="translate(36,36)">
-    <rect width="528" height="452" rx="12" fill="#1a0f0b"/>
-    <g transform="translate(24,24)">
-      <circle cx="240" cy="160" r="120" fill="#ff7a00" opacity="0.22"/>
-      <g transform="translate(96,60)">
-        <!-- face block -->
         <path d=banner.png/>
         
-    </g>
-  </g>
-</svg>
+  
