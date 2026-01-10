@@ -12,16 +12,8 @@
       <circle cx="240" cy="160" r="120" fill="#ff7a00" opacity="0.22"/>
       <g transform="translate(96,60)">
         <!-- face block -->
-        <path d="M144 0 C188 18 214 60 208 106 C202 156 170 186 128 198 C86 210 52 190 36 150 C20 110 46 40 144 0 Z" fill="#ffd6b2"/>
-        <!-- headband -->
-        <rect x="34" y="40" width="220" height="28" rx="6" fill="#2a2a2a" />
-        <rect x="120" y="46" width="40" height="16" rx="4" fill="#e6e6e6" opacity="0.9"/>
-        <!-- stylized hair -->
-        <path d="M10 36 L24 8 L44 30 L66 6 L88 28 L112 4 L136 30 L160 6 L178 36 L144 18 L120 40 L92 18 L64 46 Z" fill="#ffb05a" opacity="0.9"/>
-      </g>
-
-      <text x="240" y="420" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#ffb88a" font-weight="700">Naruto</text>
-      <text x="240" y="456" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#d4c2a6">AI stylized portrait — high quality placeholder</text>
+        <path d=banner.png/>
+        
     </g>
   </g>
 </svg>
